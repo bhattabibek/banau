@@ -7,11 +7,11 @@ import { FaUsersViewfinder } from "react-icons/fa6";
 const Features = () => {
   return (
     <>
-    <div className='features'>
-      <div className='feat'>1000 + APP Download <FaRegMap/></div>
-      <div className='feat'>20 + Service Centers <FaCar /></div>
-      <div className='feat'>30 + Mantainence <VscTools /></div>
-      <div className='feat'>500 + Customers <FaUsersViewfinder /></div>
+    <div className='features flex flex-col md:flex md:flex-wrap lg:flex-row' >
+      <div className='feat'>1000 + APP Download <FaRegMap size={70}/></div>
+      <div className='feat'>20 + Service Centers <FaCar size={70} /></div>
+      <div className='feat'>30 + Mantainence <VscTools size={70} /></div>
+      <div className='feat'>500 + Customers <FaUsersViewfinder  size={70}/></div>
     </div>
     </>
   )
