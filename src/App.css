@@ -4,3 +4,19 @@
   margin: 50px;
   padding: 50px;
 }
+
+/* app.css */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600&display=swap');
+
+/* Custom styles using Tailwind's @apply */
+.my-custom-class {
+  @apply font-nunito text-lg text-gray-800;
+}
+
+.my-header {
+  @apply font-nunito text-2xl font-bold text-center;
+}
+
+.my-button {
+  @apply px-4 py-2 bg-blue-500 text-white rounded-full;
+}

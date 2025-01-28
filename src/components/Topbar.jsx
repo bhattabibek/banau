@@ -6,9 +6,9 @@ import { FaInstagram } from "react-icons/fa";
 const Topbar = () => {
   return (
     <>
-    <div className='flex justify-between bg-yellow-300 px-20'>
-    <div className=' p-2'>Welcome to Banau Autos</div>
-    <div className='flex inline justify-items-center items-center'> <FaFacebook /> <FaXTwitter /> <FaInstagram /> </div>
+    <div className='flex justify-between bg-yellow-400 font-nunito'>
+    <div className=' p-2 '>Welcome to Banau Autos</div>
+    <div className='flex inline justify-items-center items-center gap-3'> <FaFacebook /> <FaXTwitter /> <FaInstagram /> </div>
     </div>
     </>
   )
